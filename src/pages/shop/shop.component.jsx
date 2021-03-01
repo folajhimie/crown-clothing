@@ -1,6 +1,7 @@
 import React from 'react';
+// import { Route } from 'react-router-dom';
 
-import SHOP_DATA from './shop.data.js';
+import SHOP_DATA from '../../redux/shop/shop.data';
 import CollectionPreview from '../../components/collection-preview/collection-preview'
 
 class ShopPage extends React.Component {
